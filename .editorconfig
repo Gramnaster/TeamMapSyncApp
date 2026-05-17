@@ -1,0 +1,66 @@
+[*.cs]
+csharp_style_namespace_declarations = file_scoped:warning
+trim_trailing_whitespace = true
+# Built-in .NET analyzers that pull their weight in web apps
+dotnet_diagnostic.CA1305.severity = warning
+dotnet_diagnostic.CA1307.severity = warning
+dotnet_diagnostic.CA1309.severity = warning
+dotnet_diagnostic.CA1310.severity = warning
+dotnet_diagnostic.CA1727.severity = suggestion
+
+dotnet_diagnostic.CA1848.severity = suggestion
+dotnet_diagnostic.CA1849.severity = warning
+dotnet_diagnostic.CA1862.severity = warning
+dotnet_diagnostic.CA1869.severity = warning
+dotnet_diagnostic.CA1873.severity = suggestion
+
+dotnet_diagnostic.CA2000.severity = warning
+dotnet_diagnostic.CA2016.severity = warning
+dotnet_diagnostic.CA2017.severity = warning
+dotnet_diagnostic.CA2024.severity = warning
+dotnet_diagnostic.CA2025.severity = warning
+dotnet_diagnostic.CA2250.severity = suggestion
+dotnet_diagnostic.CA2253.severity = warning
+dotnet_diagnostic.CA2254.severity = warning
+
+# ASP.NET and security-sensitive built-in rules
+dotnet_diagnostic.CA3001.severity = warning
+dotnet_diagnostic.CA3002.severity = warning
+dotnet_diagnostic.CA3007.severity = warning
+dotnet_diagnostic.CA3012.severity = warning
+dotnet_diagnostic.CA5382.severity = warning
+dotnet_diagnostic.CA5391.severity = warning
+dotnet_diagnostic.CA5395.severity = warning
+
+# AsyncFixer
+dotnet_diagnostic.AsyncFixer01.severity = suggestion
+dotnet_diagnostic.AsyncFixer02.severity = warning
+dotnet_diagnostic.AsyncFixer03.severity = warning
+dotnet_diagnostic.AsyncFixer04.severity = warning
+dotnet_diagnostic.AsyncFixer05.severity = warning
+dotnet_diagnostic.AsyncFixer06.severity = warning
+
+# IDisposableAnalyzers
+dotnet_diagnostic.IDISP001.severity = warning
+dotnet_diagnostic.IDISP004.severity = warning
+dotnet_diagnostic.IDISP007.severity = warning
+dotnet_diagnostic.IDISP017.severity = suggestion
+
+# SharpSource rules that are especially relevant in ASP.NET Core
+dotnet_diagnostic.SS037.severity = warning
+dotnet_diagnostic.SS038.severity = warning
+dotnet_diagnostic.SS043.severity = warning
+dotnet_diagnostic.SS049.severity = warning
+dotnet_diagnostic.SS056.severity = warning
+dotnet_diagnostic.SS065.severity = suggestion
+
+# App-level async guidance
+# ASP.NET Core app code does not need blanket ConfigureAwait(false) enforcement.
+dotnet_diagnostic.CA2007.severity = none
+dotnet_diagnostic.MA0004.severity = none
+
+# ASP.NET Core controllers must be public for routing to discover them via reflection.
+# CA1515 (consider making types internal) and CA1812 (avoid uninstantiated internal classes)
+# are both inapplicable in a web app entry-point project.
+dotnet_diagnostic.CA1515.severity = none
+dotnet_diagnostic.CA1812.severity = none

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Dockerfile" />
+  </Folder>
+  <Project Path="api/TeamMapSyncApi/TeamMapSyncApi.csproj" />
+</Solution>
