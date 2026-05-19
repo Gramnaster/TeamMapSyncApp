@@ -1,0 +1,362 @@
+[
+  {
+    "Id": "012812062",
+    "Name": "Bgy. No. 1, San Lorenzo (Pob.)",
+    "LocalGovernmentUnitId": "012812000"
+  },
+  {
+    "Id": "012812061",
+    "Name": "Bgy. No. 10, San Jose (Pob.)",
+    "LocalGovernmentUnitId": "012812000"
+  },
+  {
+    "Id": "012805023",
+    "Name": "Ablan Pob.",
+    "LocalGovernmentUnitId": "012805000"
+  },
+  {
+    "Id": "012805022",
+    "Name": "Acosta Pob.",
+    "LocalGovernmentUnitId": "012805000"
+  },
+  {
+    "Id": "012816016",
+    "Name": "Pannaratan (Pob.)",
+    "LocalGovernmentUnitId": "012816000"
+  },
+  {
+    "Id": "012816019",
+    "Name": "Salbang (Pob.)",
+    "LocalGovernmentUnitId": "012816000"
+  },
+  {
+    "Id": "012820004",
+    "Name": "San Baltazar (Pob.)",
+    "LocalGovernmentUnitId": "012820000"
+  },
+  {
+    "Id": "012820005",
+    "Name": "San Bartolome (Pob.)",
+    "LocalGovernmentUnitId": "012820000"
+  },
+  {
+    "Id": "012934003",
+    "Name": "Barangay I (Pob.)",
+    "LocalGovernmentUnitId": "012934000"
+  },
+  {
+    "Id": "012934004",
+    "Name": "Barangay II (Pob.)",
+    "LocalGovernmentUnitId": "012934000"
+  },
+  {
+    "Id": "012906036",
+    "Name": "San Antonio (Pob.)",
+    "LocalGovernmentUnitId": "012906000"
+  },
+  {
+    "Id": "012906037",
+    "Name": "San Isidro (Pob.)",
+    "LocalGovernmentUnitId": "012906000"
+  },
+  {
+    "Id": "012903030",
+    "Name": "Barangay 1 (Pob.)",
+    "LocalGovernmentUnitId": "012903000"
+  },
+  {
+    "Id": "012903031",
+    "Name": "Barangay 2 (Pob.)",
+    "LocalGovernmentUnitId": "012903000"
+  },
+  {
+    "Id": "012926029",
+    "Name": "Poblacion Norte",
+    "LocalGovernmentUnitId": "012926000"
+  },
+  {
+    "Id": "012926030",
+    "Name": "Poblacion Sur",
+    "LocalGovernmentUnitId": "012926000"
+  },
+  {
+    "Id": "015518023",
+    "Name": "Poblacion Oeste",
+    "LocalGovernmentUnitId": "015518000"
+  },
+  {
+    "Id": "015518024",
+    "Name": "Barangay I",
+    "LocalGovernmentUnitId": "015518000"
+  },
+  {
+    "Id": "015546032",
+    "Name": "Poblacion",
+    "LocalGovernmentUnitId": "015546000"
+  },
+  {
+    "Id": "015546003",
+    "Name": "Bactad East",
+    "LocalGovernmentUnitId": "015546000"
+  },
+  {
+    "Id": "015522028",
+    "Name": "Poblacion",
+    "LocalGovernmentUnitId": "015522000"
+  },
+  {
+    "Id": "015522010",
+    "Name": "Domalandan East",
+    "LocalGovernmentUnitId": "015522000"
+  },
+  {
+    "Id": "015526025",
+    "Name": "Poblacion",
+    "LocalGovernmentUnitId": "015526000"
+  },
+  {
+    "Id": "015526001",
+    "Name": "Alitaya",
+    "LocalGovernmentUnitId": "015526000"
+  },
+  {
+    "Id": "031410045",
+    "Name": "San Vicente (Pob.)",
+    "LocalGovernmentUnitId": "031410000"
+  },
+  {
+    "Id": "031410049",
+    "Name": "Santo Niño (Pob.)",
+    "LocalGovernmentUnitId": "031410000"
+  },
+  {
+    "Id": "031412020",
+    "Name": "Poblacion",
+    "LocalGovernmentUnitId": "031412000"
+  },
+  {
+    "Id": "031412001",
+    "Name": "Bagbaguin",
+    "LocalGovernmentUnitId": "031412000"
+  },
+  {
+    "Id": "031408006",
+    "Name": "Poblacion",
+    "LocalGovernmentUnitId": "031408000"
+  },
+  {
+    "Id": "031408001",
+    "Name": "Cutcut",
+    "LocalGovernmentUnitId": "031408000"
+  },
+  {
+    "Id": "031417015",
+    "Name": "Poblacion",
+    "LocalGovernmentUnitId": "031417000"
+  },
+  {
+    "Id": "031417001",
+    "Name": "Agnaya",
+    "LocalGovernmentUnitId": "031417000"
+  },
+  {
+    "Id": "035401029",
+    "Name": "Sto. Rosario (Pob.)",
+    "LocalGovernmentUnitId": "035401000"
+  },
+  {
+    "Id": "035401010",
+    "Name": "Lourdes North West",
+    "LocalGovernmentUnitId": "035401000"
+  },
+  {
+    "Id": "035416021",
+    "Name": "Santo Rosario (Pob.)",
+    "LocalGovernmentUnitId": "035416000"
+  },
+  {
+    "Id": "035416001",
+    "Name": "Alasas",
+    "LocalGovernmentUnitId": "035416000"
+  },
+  {
+    "Id": "035404003",
+    "Name": "Cabambangan (Pob.)",
+    "LocalGovernmentUnitId": "035404000"
+  },
+  {
+    "Id": "035404001",
+    "Name": "Balas",
+    "LocalGovernmentUnitId": "035404000"
+  },
+  {
+    "Id": "035407009",
+    "Name": "Plaza Burgos (Pob.)",
+    "LocalGovernmentUnitId": "035407000"
+  },
+  {
+    "Id": "035407028",
+    "Name": "Santa Filomena (Pob.)",
+    "LocalGovernmentUnitId": "035407000"
+  },
+  {
+    "Id": "034903013",
+    "Name": "Barrera District (Pob.)",
+    "LocalGovernmentUnitId": "034903000"
+  },
+  {
+    "Id": "034903015",
+    "Name": "Bernardo District (Pob.)",
+    "LocalGovernmentUnitId": "034903000"
+  },
+  {
+    "Id": "034926021",
+    "Name": "Canuto Ramos Pob.",
+    "LocalGovernmentUnitId": "034926000"
+  },
+  {
+    "Id": "034926023",
+    "Name": "Crisanto Sanchez Pob.",
+    "LocalGovernmentUnitId": "034926000"
+  },
+  {
+    "Id": "034911049",
+    "Name": "Saint John District (Pob.)",
+    "LocalGovernmentUnitId": "034911000"
+  },
+  {
+    "Id": "034911060",
+    "Name": "Santa Veronica District (Pob.)",
+    "LocalGovernmentUnitId": "034911000"
+  },
+  {
+    "Id": "034930046",
+    "Name": "Poblacion Sur",
+    "LocalGovernmentUnitId": "034930000"
+  },
+  {
+    "Id": "034930001",
+    "Name": "Andal Alino (Pob.)",
+    "LocalGovernmentUnitId": "034930000"
+  },
+  {
+    "Id": "042109006",
+    "Name": "Poblacion I-A (Pob.)",
+    "LocalGovernmentUnitId": "042109000"
+  },
+  {
+    "Id": "042109087",
+    "Name": "Poblacion I-B",
+    "LocalGovernmentUnitId": "042109000"
+  },
+  {
+    "Id": "042106016",
+    "Name": "Zone I (Pob.)",
+    "LocalGovernmentUnitId": "042106000"
+  },
+  {
+    "Id": "042106017",
+    "Name": "Zone II (Pob.)",
+    "LocalGovernmentUnitId": "042106000"
+  },
+  {
+    "Id": "042118032",
+    "Name": "Barangay I (Pob.)",
+    "LocalGovernmentUnitId": "042118000"
+  },
+  {
+    "Id": "042118033",
+    "Name": "Barangay II (Pob.)",
+    "LocalGovernmentUnitId": "042118000"
+  },
+  {
+    "Id": "042115006",
+    "Name": "Capt. C. Nazareno (Pob.)",
+    "LocalGovernmentUnitId": "042115000"
+  },
+  {
+    "Id": "042115009",
+    "Name": "Gomez-Zamora (Pob.)",
+    "LocalGovernmentUnitId": "042115000"
+  },
+  {
+    "Id": "043405038",
+    "Name": "Barangay 1 (Pob.)",
+    "LocalGovernmentUnitId": "043405000"
+  },
+  {
+    "Id": "043405039",
+    "Name": "Barangay 2 (Pob.)",
+    "LocalGovernmentUnitId": "043405000"
+  },
+  {
+    "Id": "043424003",
+    "Name": "Barangay I-A (Pob.)",
+    "LocalGovernmentUnitId": "043424000"
+  },
+  {
+    "Id": "043424004",
+    "Name": "Barangay I-B (Pob.)",
+    "LocalGovernmentUnitId": "043424000"
+  },
+  {
+    "Id": "043411005",
+    "Name": "Baybayin (Pob.)",
+    "LocalGovernmentUnitId": "043411000"
+  },
+  {
+    "Id": "043411014",
+    "Name": "Timugan (Pob.)",
+    "LocalGovernmentUnitId": "043411000"
+  },
+  {
+    "Id": "043402016",
+    "Name": "San Agustin (Pob.)",
+    "LocalGovernmentUnitId": "043402000"
+  },
+  {
+    "Id": "043402017",
+    "Name": "San Nicolas (Pob.)",
+    "LocalGovernmentUnitId": "043402000"
+  },
+  {
+    "Id": "041005055",
+    "Name": "Barangay 1 (Pob.)",
+    "LocalGovernmentUnitId": "041005000"
+  },
+  {
+    "Id": "041005056",
+    "Name": "Barangay 10 (Pob.)",
+    "LocalGovernmentUnitId": "041005000"
+  },
+  {
+    "Id": "041014040",
+    "Name": "Poblacion Barangay 1",
+    "LocalGovernmentUnitId": "041014000"
+  },
+  {
+    "Id": "041014041",
+    "Name": "Poblacion Barangay 10",
+    "LocalGovernmentUnitId": "041014000"
+  },
+  {
+    "Id": "041006007",
+    "Name": "Barangay I (Pob.)",
+    "LocalGovernmentUnitId": "041006000"
+  },
+  {
+    "Id": "041006008",
+    "Name": "Barangay II (Pob.)",
+    "LocalGovernmentUnitId": "041006000"
+  },
+  {
+    "Id": "041019049",
+    "Name": "Barangay 1 (Pob.)",
+    "LocalGovernmentUnitId": "041019000"
+  },
+  {
+    "Id": "041019004",
+    "Name": "Barangay 10 (Pob.)",
+    "LocalGovernmentUnitId": "041019000"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "012800000",
+    "Name": "Ilocos Norte",
+    "RegionId": "010000000"
+  },
+  {
+    "Id": "012900000",
+    "Name": "Ilocos Sur",
+    "RegionId": "010000000"
+  },
+  {
+    "Id": "015500000",
+    "Name": "Pangasinan",
+    "RegionId": "010000000"
+  },
+  {
+    "Id": "031400000",
+    "Name": "Bulacan",
+    "RegionId": "030000000"
+  },
+  {
+    "Id": "035400000",
+    "Name": "Pampanga",
+    "RegionId": "030000000"
+  },
+  {
+    "Id": "034900000",
+    "Name": "Nueva Ecija",
+    "RegionId": "030000000"
+  },
+  {
+    "Id": "042100000",
+    "Name": "Cavite",
+    "RegionId": "040000000"
+  },
+  {
+    "Id": "043400000",
+    "Name": "Laguna",
+    "RegionId": "040000000"
+  },
+  {
+    "Id": "041000000",
+    "Name": "Batangas",
+    "RegionId": "040000000"
+  }
+]
