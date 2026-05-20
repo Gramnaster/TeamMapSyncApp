@@ -1,0 +1,17 @@
+[
+  {
+    "Id": "010000000",
+    "Name": "Region I (Ilocos Region)",
+    "CountryId": "PH"
+  },
+  {
+    "Id": "030000000",
+    "Name": "Region III (Central Luzon)",
+    "CountryId": "PH"
+  },
+  {
+    "Id": "040000000",
+    "Name": "Region IV-A (CALABARZON)",
+    "CountryId": "PH"
+  }
+]

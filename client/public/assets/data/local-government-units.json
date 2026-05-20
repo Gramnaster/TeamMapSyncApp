@@ -1,0 +1,218 @@
+[
+  {
+    "Id": "012812000",
+    "Name": "City of Laoag",
+    "ProvinceId": "012800000",
+    "Type": "City"
+  },
+  {
+    "Id": "012805000",
+    "Name": "City of Batac",
+    "ProvinceId": "012800000",
+    "Type": "City"
+  },
+  {
+    "Id": "012816000",
+    "Name": "Paoay",
+    "ProvinceId": "012800000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "012820000",
+    "Name": "San Nicolas",
+    "ProvinceId": "012800000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "012934000",
+    "Name": "City of Vigan",
+    "ProvinceId": "012900000",
+    "Type": "City"
+  },
+  {
+    "Id": "012906000",
+    "Name": "City of Candon",
+    "ProvinceId": "012900000",
+    "Type": "City"
+  },
+  {
+    "Id": "012903000",
+    "Name": "Bantay",
+    "ProvinceId": "012900000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "012926000",
+    "Name": "Santa Maria",
+    "ProvinceId": "012900000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "015518000",
+    "Name": "City of Dagupan",
+    "ProvinceId": "015500000",
+    "Type": "City"
+  },
+  {
+    "Id": "015546000",
+    "Name": "City of Urdaneta",
+    "ProvinceId": "015500000",
+    "Type": "City"
+  },
+  {
+    "Id": "015522000",
+    "Name": "Lingayen",
+    "ProvinceId": "015500000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "015526000",
+    "Name": "Mangaldan",
+    "ProvinceId": "015500000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "031410000",
+    "Name": "City of Malolos",
+    "ProvinceId": "031400000",
+    "Type": "City"
+  },
+  {
+    "Id": "031412000",
+    "Name": "City of Meycauayan",
+    "ProvinceId": "031400000",
+    "Type": "City"
+  },
+  {
+    "Id": "031408000",
+    "Name": "Guiguinto",
+    "ProvinceId": "031400000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "031417000",
+    "Name": "Plaridel",
+    "ProvinceId": "031400000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "035401000",
+    "Name": "City of Angeles",
+    "ProvinceId": "035400000",
+    "Type": "City"
+  },
+  {
+    "Id": "035416000",
+    "Name": "City of San Fernando",
+    "ProvinceId": "035400000",
+    "Type": "City"
+  },
+  {
+    "Id": "035404000",
+    "Name": "Bacolor",
+    "ProvinceId": "035400000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "035407000",
+    "Name": "Guagua",
+    "ProvinceId": "035400000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "034903000",
+    "Name": "City of Cabanatuan",
+    "ProvinceId": "034900000",
+    "Type": "City"
+  },
+  {
+    "Id": "034926000",
+    "Name": "San Jose City",
+    "ProvinceId": "034900000",
+    "Type": "City"
+  },
+  {
+    "Id": "034911000",
+    "Name": "Guimba",
+    "ProvinceId": "034900000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "034930000",
+    "Name": "Talavera",
+    "ProvinceId": "034900000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "042109000",
+    "Name": "City of Imus",
+    "ProvinceId": "042100000",
+    "Type": "City"
+  },
+  {
+    "Id": "042106000",
+    "Name": "City of Dasmariñas",
+    "ProvinceId": "042100000",
+    "Type": "City"
+  },
+  {
+    "Id": "042118000",
+    "Name": "Silang",
+    "ProvinceId": "042100000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "042115000",
+    "Name": "Naic",
+    "ProvinceId": "042100000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "043405000",
+    "Name": "City of Calamba",
+    "ProvinceId": "043400000",
+    "Type": "City"
+  },
+  {
+    "Id": "043424000",
+    "Name": "City of San Pablo",
+    "ProvinceId": "043400000",
+    "Type": "City"
+  },
+  {
+    "Id": "043411000",
+    "Name": "Los Baños",
+    "ProvinceId": "043400000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "043402000",
+    "Name": "Bay",
+    "ProvinceId": "043400000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "041005000",
+    "Name": "Batangas City",
+    "ProvinceId": "041000000",
+    "Type": "City"
+  },
+  {
+    "Id": "041014000",
+    "Name": "City of Lipa",
+    "ProvinceId": "041000000",
+    "Type": "City"
+  },
+  {
+    "Id": "041006000",
+    "Name": "Bauan",
+    "ProvinceId": "041000000",
+    "Type": "Municipality"
+  },
+  {
+    "Id": "041019000",
+    "Name": "Nasugbu",
+    "ProvinceId": "041000000",
+    "Type": "Municipality"
+  }
+]

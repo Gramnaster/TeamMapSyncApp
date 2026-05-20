@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "facility-role-admin",
+    "Name": "Facility Administrator"
+  },
+  {
+    "Id": "facility-role-supervisor",
+    "Name": "Operations Supervisor"
+  },
+  {
+    "Id": "facility-role-staff",
+    "Name": "Service Staff"
+  },
+  {
+    "Id": "facility-role-volunteer",
+    "Name": "Community Volunteer"
+  }
+]

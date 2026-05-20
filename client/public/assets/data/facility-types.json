@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "facility-type-government",
+    "Name": "Government Office"
+  },
+  {
+    "Id": "facility-type-health",
+    "Name": "Health Facility"
+  },
+  {
+    "Id": "facility-type-school",
+    "Name": "Educational Facility"
+  },
+  {
+    "Id": "facility-type-religious",
+    "Name": "Religious Facility"
+  },
+  {
+    "Id": "facility-type-community",
+    "Name": "Community Facility"
+  },
+  {
+    "Id": "facility-type-recreation",
+    "Name": "Recreation Facility"
+  }
+]
