@@ -22,4 +22,10 @@ export default [
       'dist/**',
     ],
   },
+    module.exports = {
+    parser: "@typescript-eslint/parser",
+    rules: {
+      "@typescript-eslint/no-unnecessary-type-assertion": "error",
+    },
+  }
 ]
