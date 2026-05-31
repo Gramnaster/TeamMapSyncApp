@@ -64,3 +64,7 @@ dotnet_diagnostic.MA0004.severity = none
 # are both inapplicable in a web app entry-point project.
 dotnet_diagnostic.CA1515.severity = none
 dotnet_diagnostic.CA1812.severity = none
+
+# Suppress all analysis on EF Core auto-generated migration files
+[**/Migrations/**.cs]
+dotnet_analyzer_diagnostic.severity = none

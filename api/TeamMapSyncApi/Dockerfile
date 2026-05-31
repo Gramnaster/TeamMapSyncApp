@@ -2,6 +2,9 @@
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends libgssapi-krb5-2 \
+    && rm -rf /var/lib/apt/lists/*
 USER $APP_UID
 WORKDIR /app
 EXPOSE 8080
@@ -13,8 +16,10 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["api/TeamMapSyncApi/TeamMapSyncApi.csproj", "api/TeamMapSyncApi/"]
 COPY ["Directory.Build.props", "."]
+COPY [".editorconfig", "."]
 RUN dotnet restore "api/TeamMapSyncApi/TeamMapSyncApi.csproj"
 COPY api/ api/
+COPY client/ client/
 WORKDIR "/src/api/TeamMapSyncApi"
 RUN dotnet build "TeamMapSyncApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
@@ -27,4 +32,5 @@ RUN dotnet publish "TeamMapSyncApi.csproj" -c $BUILD_CONFIGURATION -o /app/publi
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+COPY client/public/assets/data /app/seed-data
 ENTRYPOINT ["dotnet", "TeamMapSyncApi.dll"]
