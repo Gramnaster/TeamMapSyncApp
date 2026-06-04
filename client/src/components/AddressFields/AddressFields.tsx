@@ -8,12 +8,11 @@ import { Link } from '@tanstack/react-router'
 import type { Province, LocalGovernmentUnit, Barangay, Facility } from './types'
 
 export const findFacilityInfo = (id: string | number) => {
-  const what = facilities.find(faci => faci.Id === id )
-  return what
+  const facilityInfo = facilities.find(faci => faci.Id === id )
+  return facilityInfo
 }
 
 export const facilityTypeFilter = (ft: string) => {
-      console.log(`ft`, ft);
      const facilityTypeFiltered = ft.slice(14)
      return facilityTypeFiltered
   }
@@ -123,7 +122,6 @@ const AddressFields = () => {
               const { Id, Code, Name, Address, FacilityTypeId, BarangayId, CreatedAt } = fclty;
               // Converted Id to pure string as Facility's Id property is set to 'string | number' instead of being a pure string, therefore TS treats it as unsafe
               const convertedId = Id.toString();
-              console.log(`convertedId`, convertedId);
               return (
                 <div key={Id} className='flex flex-col m-2 mt-5 capitalize'>
                   <span><strong>Code:</strong> {Code}</span>
