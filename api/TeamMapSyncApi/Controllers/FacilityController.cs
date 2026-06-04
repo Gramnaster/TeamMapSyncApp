@@ -19,9 +19,9 @@ public class FacilityController(AppDbContext db) : ControllerBase
                     .ThenInclude(lgu => lgu!.Province)
                         .ThenInclude(p => p!.Region)
             .AsNoTracking()
-            .ToListAsync();
+            .ToListAsync(cancellationToken: HttpContext.RequestAborted);
 
-        return Ok(facilities.Select(ToResponse));
+        return Ok(facilities.Select(FacilityResponse.ToResponse));
     }
 
     [HttpGet("{id:guid}")]
@@ -34,10 +34,9 @@ public class FacilityController(AppDbContext db) : ControllerBase
                     .ThenInclude(lgu => lgu!.Province)
                         .ThenInclude(p => p!.Region)
             .AsNoTracking()
-            .FirstOrDefaultAsync(f => f.Id == id);
+            .FirstOrDefaultAsync(f => f.Id == id, cancellationToken: HttpContext.RequestAborted);
 
         if (facility is null) return NotFound();
-        return Ok(ToResponse(facility));
+        return Ok(FacilityResponse.ToResponse(facility));
     }
-    
 }
