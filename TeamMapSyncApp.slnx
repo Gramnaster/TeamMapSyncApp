@@ -4,5 +4,7 @@
     <File Path="Directory.Build.props" />
     <File Path="Dockerfile" />
   </Folder>
+  <Project Path="api/ServiceContracts/ServiceContracts.csproj" Id="8288573c-b5e3-42a7-8e4e-7338d3d12ebc" />
   <Project Path="api/TeamMapSyncApi/TeamMapSyncApi.csproj" />
+  <Project Path="api/Entities/Entities.csproj" Id="3704ee13-9613-4a00-882e-cbe2a5fc7e2b" />
 </Solution>

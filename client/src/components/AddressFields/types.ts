@@ -38,5 +38,21 @@ export interface Facility {
   FacilityStatus: string;
   CreatedAt: string;
   UpdatedAt: string;
-  facility: Facility;
+}
+
+export interface Employee {
+  Id: string;
+  Code: string;
+  FirstName: string;
+  MiddleName: string;
+  LastName: string;
+  Email: string;
+  PasswordHash: string;
+  DateOfBirth: string;
+  HomeAddress: string;
+  // isActive: boolean;
+  // isDeleted: boolean;
+  DeletedAt: string | null;
+  CreatedAt: string;
+  UpdatedAt: string;
 }
