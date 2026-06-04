@@ -18,6 +18,31 @@ public class FacilityResponse
     public DateTime UpdatedAt { get; set; }
     public FacilityTypeResponse? FacilityType { get; set; }
     public BarangayResponse? Barangay { get; set; }
+
+    public static FacilityResponse? ToResponse(Facility f)
+    {
+        if (f is null) return null;
+
+        return new FacilityResponse
+        {
+            Id = f.Id,
+            Code = f.Code,
+            Name = f.Name,
+            Latitude = f.Latitude,
+            Longitude = f.Longitude,
+            Address = f.Address,
+            PostalCode = f.PostalCode,
+            ContactNumber = f.ContactNumber,
+            Email = f.Email,
+            FacilityStatus = f.FacilityStatus,
+            CreatedAt = f.CreatedAt,
+            UpdatedAt = f.UpdatedAt,
+            FacilityType = f.FacilityType is null ? null : new FacilityTypeResponse
+            {
+                Id = f.FacilityType.Id,
+                Name = f.FacilityType.Name,
+            },
+            Barangay = BarangayResponse.ToBarangayResponse(f.Barangay),
+        };
+    }
 }
-
-

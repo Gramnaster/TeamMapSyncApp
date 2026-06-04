@@ -9,7 +9,7 @@ public static class DatabaseSeeder
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNameCaseInsensitive = true,
-        Converters = { new JsonStringEnumConverter() }
+        Converters = { new JsonStringEnumConverter() },
     };
 
     public static async Task SeedAsync(AppDbContext db, string dataDirectory)

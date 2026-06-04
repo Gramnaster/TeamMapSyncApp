@@ -7,12 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers()
     .AddJsonOptions(o => o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
+builder.Services.AddHttpClient();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
+await using (var scope = app.Services.CreateAsyncScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     var dataDir = builder.Configuration["SeedDataDirectory"]
@@ -24,5 +26,18 @@ app.UseStaticFiles();
 app.UseRouting();
 app.MapControllers();
 
-await app.RunAsync().ConfigureAwait(false);
+// Log all registered endpoints at startup
+var endpointDataSource = app.Services.GetRequiredService<EndpointDataSource>();
+foreach (var endpoint in endpointDataSource.Endpoints)
+{
+    var displayName = endpoint.DisplayName ?? "Unknown";
+    var methods = endpoint.Metadata
+        .OfType<HttpMethodMetadata>()
+        .FirstOrDefault()
+        ?.HttpMethods
+        ?? ["ANY"];
 
+    Console.WriteLine($"{string.Join(", ", methods)} {displayName}");
+}
+
+await app.RunAsync().ConfigureAwait(false);
